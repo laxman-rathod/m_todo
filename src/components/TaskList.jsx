@@ -7,9 +7,7 @@ import {
   FcLowPriority,
   FcMediumPriority,
 } from "react-icons/fc";
-// import myTasks from "../TaskData";
 const TaskList = ({ handleClick }) => {
-
   const myTasks = [
     {
       title: "Nextjs tutorial",
@@ -64,7 +62,7 @@ const TaskList = ({ handleClick }) => {
       tags: "#nextjs #coding #career",
     },
   ];
-  
+
   return (
     <>
       <nav className="flex items-center justify-start gap-6 pb-2 pl-4 mt-8 border-black border-b">

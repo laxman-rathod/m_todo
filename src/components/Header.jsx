@@ -1,29 +1,18 @@
+import ThemeToggle from "./ThemeToggle";
+
 const Header = () => {
   return (
     <div className="header">
       <div className="menu-circle"></div>
-      {/*<div className="header-menu">
-        <a className="menu-link is-active" href="#">
-          Apps
-        </a>
-        <a className="menu-link notify" href="#">
-          Your work
-        </a>
-        <a className="menu-link" href="#">
-          Discover
-        </a>
-        <a className="menu-link notify" href="#">
-          Market
-        </a>
-      </div> */}
 
       <div className="search-bar">
         <input type="text" placeholder="Search a Task" />
       </div>
 
       <div className="header-profile">
+        <ThemeToggle />
         <div className="notification">
-          <span className="notification-number">3</span>
+          <span className="notification-number">7</span>
           <svg
             viewBox="0 0 24 24"
             fill="currentColor"

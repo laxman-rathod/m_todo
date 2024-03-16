@@ -21,7 +21,7 @@ const todoSlice = createSlice({
         state.items[todoIndex] = newTodo;
       }
     },
-    // added
+
     toggleFavorite: (state, action) => {
       const todo = state.items.find((todo) => todo.id === action.payload);
       if (todo) {

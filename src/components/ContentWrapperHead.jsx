@@ -43,8 +43,8 @@ const ContentWrapperHerad = () => {
           M_Todo :)
         </h3>
         <div className="content-text">
-          Grab yourself 10 free images from Adobe Stock in a 30-day free trial
-          plan and find perfect image, that will help you with your new project.
+          Empower your day with purposeful tasks. Turn your dreams into
+          actionable steps. Every task completed is a step closer to your goals.
         </div>
         <button className="content-button">Have a Good day!</button>
       </div>

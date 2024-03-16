@@ -1,26 +1,4 @@
-// const HomeNavbar = () => {
-//   return (
-//     <div className="header-menu mt-4">
-//       <a className="menu-link is-active" href="#">
-
 import { useSelector } from "react-redux";
-
-//         All (10)
-//       </a>
-//       <a className="menu-link notify" href="#">
-//         Active task (10)
-//       </a>
-//       <a className="menu-link" href="#">
-//         Favorite (10)
-//       </a>
-//       <a className="menu-link notify" href="#">
-//         Completed (10)
-//       </a>
-//     </div>
-//   );
-// };
-
-// export default HomeNavbar;
 
 const HomeNavbar = ({
   handleTabChange,

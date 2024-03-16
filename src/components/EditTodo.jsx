@@ -58,7 +58,7 @@ const EditTodo = ({ editTodo, showAllTasks, taskCompleted }) => {
           value={dueDate}
           onChange={(e) => setDueDate(e.target.value)}
           placeholder="Enter a date"
-          className="text-black"
+          className="title"
         />
         <div className="flex place-items-center gap-2 text-sm w-fit">
           <input
@@ -72,19 +72,15 @@ const EditTodo = ({ editTodo, showAllTasks, taskCompleted }) => {
           </label>
         </div>
 
-        <div className="flex items-center justify-center gap-4">
-          <button
-            className="bg-pink-400 p-2 rounded-lg"
-            onClick={() => handleEditTodo()}
-          >
-            Save
+        <div className="flex items-center justify-center gap-8">
+          <button class="btn-12" onClick={() => handleEditTodo()}>
+            <span>Click!</span>
+            <span>Save</span>
           </button>
 
-          <button
-            className="bg-pink-400 p-2 rounded-lg"
-            onClick={handleCancelEdit}
-          >
-            Cancel
+          <button className="btn-12" onClick={handleCancelEdit}>
+            <span>Click!</span>
+            <span>Cancel</span>
           </button>
         </div>
       </div>

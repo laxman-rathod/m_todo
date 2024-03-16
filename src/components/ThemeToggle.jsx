@@ -1,11 +1,18 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const ThemeToggle = () => {
   const [isToggle, setIsToggle] = useState(false);
-
   const handleClickToggle = () => {
     setIsToggle(!isToggle);
+    document.body.classList.toggle("light-mode"); // Toggle the 'light-mode' class on body
   };
+
+  // Cleanup function for event listener
+  useEffect(() => {
+    return () => {
+      document.body.classList.remove("light-mode"); // Remove 'light-mode' class on component unmount
+    };
+  }, []);
 
   return (
     <div

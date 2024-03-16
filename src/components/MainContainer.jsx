@@ -54,7 +54,6 @@ const MainContainer = () => {
         <LeftSidebar
           handleCreateTask={handleCreateTask}
           showAllTasks={handleTaskListHome}
-          // showAllTasks={handleTabChange}
         />
         <div className="main-container">
           <div className="content-wrapper">
@@ -63,8 +62,6 @@ const MainContainer = () => {
               <EmptyPageForTodos handleCreateTask={handleCreateTask} />
             )}
             {isCreateTask && <CreateTask showAllTasks={handleTaskListHome} />}
-
-            {/* {todos.length > 0 && isTaskListHome && <HomeNavbar />} */}
 
             {todos.length > 0 && isTaskListHome && (
               <HomeNavbar
