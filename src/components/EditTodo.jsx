@@ -73,7 +73,7 @@ const EditTodo = ({ editTodo, showAllTasks, taskCompleted }) => {
         </div>
 
         <div className="flex items-center justify-center gap-8">
-          <button class="btn-12" onClick={() => handleEditTodo()}>
+          <button className="btn-12" onClick={() => handleEditTodo()}>
             <span>Click!</span>
             <span>Save</span>
           </button>

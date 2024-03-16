@@ -34,7 +34,10 @@ const TaskCards = ({ handleEditTodoTab, isTaskCompleted, todos }) => {
                 className="flex items-center justify-between pt-5"
               >
                 <span className="text-xs">{items.dueDate}</span>
-                <div className="flex items-center justify-center gap-2">
+                <div
+                  key={items.id}
+                  className="flex items-center justify-center gap-2"
+                >
                   {items.isFavorite ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
