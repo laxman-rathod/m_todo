@@ -2,21 +2,38 @@
 
 M_todo is a powerful and flexible todo web application built using React, Redux, and Tailwind CSS. It allows users to add, delete, update, and sort their todos efficiently.
 
+
+## Live Preview 
+
+You can view a live demo of the **M_todo** app at [Preview](https://m-todo-one.vercel.app/)
+
+
 ## Features
 
 - **Add Todos**: Easily add new tasks to your todo list.
 - **Delete Todos**: Remove tasks that are no longer needed.
-- **Update Todos**: Edit and update existing tasks.
-- **Sort Todos**: Organize tasks by different criteria.
+- **Update Todos**: Edit the details of existing tasks.
+- **Sort Todos**: Organize your tasks by various criteria.
+
 
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
 - **Redux**: A predictable state container for JavaScript apps.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
 
-## Preview 
-https://m-todo-one.vercel.app/
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+## Prerequisites
+
+Make sure you have the following installed on your local machine:
+
+- Node.js
+- npm (Node package manager)
+
 
 ## Installation
 
@@ -40,6 +57,7 @@ To run this project locally, follow these steps:
     ```
 5. Open your browser and visit `http://localhost:3000`.
 
+
 ## Usage
 
 1. **Add a Todo**: Enter your task in the input field and click the "Add" button.
@@ -50,11 +68,19 @@ To run this project locally, follow these steps:
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated.**
+
+1. Fork the Project
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+4. Push to the Branch (git push origin feature/AmazingFeature)
+5. Open a Pull Request
+
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 ## Contact
 
