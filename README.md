@@ -47,10 +47,6 @@ To run this project locally, follow these steps:
 3. **Delete a Todo**: Click on the delete icon next to the task you want to remove.
 4. **Sort Todos**: Use the sorting options to organize your tasks by different criteria.
 
-## Folder Structure
-
-hhh
-
 
 ## Contributing
 
